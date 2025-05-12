@@ -20,24 +20,39 @@
 // console.log(id=== id2);//false
 
 
-const heros=["shaktiman", 'naagraaj', "doga"] //array
+// const heros=["shaktiman", 'naagraaj', "doga"] //array
 
-let obj ={
-    name:"shreya",
-    age:22 //objects
+// let obj ={
+//     name:"shreya",
+//     age:22 //objects
+// }
+
+
+// const Myfunc = function (){
+//     console.log("hello"); //datatype: function
+// }
+
+
+
+//***********************************************************************/
+//stack(primitive data types, has copy ) , heap(non primitive data types, has reference)
+
+// let myyt="shreya.com"
+// let name2= myyt
+// name2="shreyadharwal.com"
+
+// console.log(myyt);
+// console.log(name2);
+
+
+let userone={
+    email:"shreyadharwal@gmail.com",
+    upi:"user@ghj"
 }
 
-
-const Myfunc = function (){
-    console.log("hello"); //datatype: function
-}
-
-
-
-
-
-
-
-
+let usertwo= userone
+usertwo.email= "user@google.com"
+console.log(userone.email);//user@google.com
+console.log(usertwo.email);//user@google.com//because both are in heap,as it is a function
 
 
