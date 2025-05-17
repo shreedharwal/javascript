@@ -41,20 +41,36 @@ function loginusermsg(username='sam'){//given default value
 // console.log(loginusermsg()) //undefined
 
 
+function calculatecarPrice(...num1){//rest spread operator
+    return num1
+}
+//console.log(calculatecarPrice(200,400,500));//[ 200, 400, 500 ]
+
+const user={
+    username:'shreya',
+    item:'bag',
+    price:199
+}
+
+function handleObject(anyObj){
+    console.log(`username is ${anyObj.username} and price of bag is ${anyObj.price}`);
+  }
+// handleObject(user)
+//another way without making object
+// handleObject({
+//     username:'sam',
+//     price:399
+// })//username is sam and price of bag is 399
 
 
+const mynewarr=[200,456,4567,678]
+function returnsecval(getarr){
+    return getarr[1]
+}
+// console.log(returnsecval(mynewarr))//456
 
-
-
-
-
-
-
-
-
-
-
-
+//passing an array without declaration 
+// console.log(returnsecval([200,456,4567,678]))//456
 
 
 
