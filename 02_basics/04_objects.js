@@ -51,22 +51,26 @@ const users=[
     }
 ]
 
-users[1].email
-console.log(Object.keys(tinderuser))//[ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderuser))//[ 'abc', 'sammi', false ]
-//keyval is converted to a seprate array
-console.log(Object.entries(tinderuser))//[ [ 'id', 'abc' ], [ 'name', 'sammi' ], [ 'isLoggedIn', false ] ]
+// users[1].email
+// console.log(Object.keys(tinderuser))//[ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderuser))//[ 'abc', 'sammi', false ]
+// //keyval is converted to a seprate array
+// console.log(Object.entries(tinderuser))//[ [ 'id', 'abc' ], [ 'name', 'sammi' ], [ 'isLoggedIn', false ] ]
 
 
-console.log(tinderuser.hasOwnProperty('isLoggedIn'));//true
-console.log(tinderuser.hasOwnProperty('isLogged'))//false
+// console.log(tinderuser.hasOwnProperty('isLoggedIn'));//true
+//console.log(tinderuser.hasOwnProperty('isLogged'))//false
 
+const course={
+    coursename:'js in hindi',
+    price:'999',
+    courseteacher:'shreya'
+}
 
+//course.courseteacher // this is one method
 
-
-
-
-
-
+// const {courseteacher: teacher}= course//can give created name to courseteacher
+// // console.log(courseteacher);
+// console.log(teacher)
 
 
