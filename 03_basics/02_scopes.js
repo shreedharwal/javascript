@@ -31,22 +31,46 @@
 // console.log(a);
 
 
+// function one(){
+//     const username='shreya'
+
+//     function two(){
+//         const website='youtube'
+//         console.log(username)
+//     }
+//     //console.log(website)//error because it is out of scope
+//     two()
+// }
+
+// one()
 
 
+if(true){
+    const username='shreya'
+    if(username==='shreya'){
+        const website=' youtube'
+        // console.log(username+website)
+    }
+    // console.log((website));//error because outside of scope
+    
+}
+// console.log(username);//error because outside of scope
 
 
+//*******************INTERESTING***********************************
+// console.log(addone(5))
+// function addone(num){
+//     return num+1
+// }
+// console.log(addone(5))
 
 
+addtwo(5)//error because he is not able to find addtwo
+const addtwo= function(num){//function// hoisting 
+    return num+2
+}
 
-
-
-
-
-
-
-
-
-
+// addtwo(5)
 
 
 
