@@ -1,4 +1,4 @@
-//reduce
+//reduce function
 
 const mynum=[1,2,3]
 
