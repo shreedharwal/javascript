@@ -1,4 +1,4 @@
-//for each loop(higher order array loops)
+//for each loop (higher order array loops)
 const coding=['js','cpp', 'python','ruby']
 // coding.forEach( function (val) {
 //     console.log(val);
