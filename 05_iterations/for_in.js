@@ -1,4 +1,4 @@
-//for in
+//for in loop
 
 // const myobj= {
 //     js:'javascript',
