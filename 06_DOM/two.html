@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
 </head>
-<body>
+<body style="background-color: #212121; color: #ffff;">
     <div class="parent">
         <div class="day">Mon</div>
         <div class="day">tues</div>
@@ -13,4 +13,9 @@
         <div class="day">thurs</div>
     </div>
 </body>
+ <script>
+    const parent= document.querySelector(".parent")
+    console.log(parent);
+    console.log(parent.children[0]);
+ </script>
 </html>
