@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 3</title>
+
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #ffff;
+        }
+    </style>
+
+</head>
+<body class="bg-black">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+
+<script>
+    // basic type one 
+    function addlanguage(langName){
+        const li= document.createElement('li')
+        li.innerHTML= `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addlanguage('python')
+    addlanguage("typescript")
+
+
+
+    //optimized approach
+    function addOptilang(langName){
+        const li= document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptilang('goLang')
+
+
+//1. edit a element 
+
+const secondLang= document.querySelector("li:nth-child(2)")
+const newli= document.createElement('li')
+newli.textContent= 'Mojo'
+secondLang.replaceWith(newli)
+
+//2. edit
+const firstlang=document.querySelector("li:first-child")
+firstlang.outerHTML='<li>TypeScript</li>'
+
+//Remove
+const lastlang= document.querySelector("li:last-child")
+lastlang.remove()
+
+
+</script>
+
+
+</html>
