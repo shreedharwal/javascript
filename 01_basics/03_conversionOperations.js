@@ -1,4 +1,4 @@
-// let score= "33abc" // NaN
+let score= "33abc" // NaN
 // let score= null //0
 // let score= undefined // NaN
 // let score= true //1
@@ -29,7 +29,7 @@
 // console.log(typeof stringNum);
 
 //**********************Operations*******************************/
-// 
+
 
 // let str1="hello"
 // let str2=" shreya"
@@ -45,9 +45,9 @@
 // num1=num2=num3=2+2 //no readability
 
 // let gamecounter=100
-// gamecounter++
+// // gamecounter++
 // // console.log(gamecounter)
-// // ++gamecounter
+// ++gamecounter
 // console.log(gamecounter)
 
 
@@ -58,6 +58,6 @@
 //  console.log(x,y) //6,5
 
 // ++Increment (Prefix:If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.)
- let x=5
- const y= ++x
- console.log(x,y) //6,6
+//  let x=5
+//  const y= ++x
+//  console.log(x,y) //6,6
