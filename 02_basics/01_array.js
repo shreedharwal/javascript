@@ -42,7 +42,6 @@ console.log("C",myarr)//removes (1 to 3) indexed from original array, if we prin
 
 console.log(myn2);
 
-console.log("hello to shreya from github")
 
 
 
