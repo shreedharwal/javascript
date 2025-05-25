@@ -1,9 +1,11 @@
+//ways to declare variable
+
 const accountId= 14423
 let accountEmail='shreyadharwal@gmail.com'
 var accountPassowed='12345'
 accountCity= "jaipur"
 
-// accountId= 2 //not allowed
+// accountId= 2 //not allowed because constant
 accountEmail="hc@gmail.com"
 accountPassowed='2345'
 accountCity="delhi"
