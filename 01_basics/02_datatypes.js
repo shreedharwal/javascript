@@ -14,7 +14,7 @@ let isLoggedIn= false
 //bigint for very large number 
 //string '' or ""
 //boolean => true/false
-//null => standalone val 
+//null => stand alone val 
 //undefined => no value provided
 //symbol => for finding uniqueness 
 
