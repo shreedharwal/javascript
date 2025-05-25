@@ -22,6 +22,6 @@
 // console.log(undefined > NaN); //false
 // console.log(undefined < NaN); //false
 
-console.log("2" == 2); // true , here conversion starts 
-// strict check
-console.log("2" === 2); // false, but here no conversion it checks datatypes also
+// console.log("2" == 2); // true , here conversion starts 
+// // strict check
+// console.log("2" === 2); // false, but here no conversion it checks datatypes also
