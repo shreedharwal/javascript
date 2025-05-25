@@ -45,14 +45,14 @@
 // console.log(name2);
 
 
-let userone={
-    email:"shreyadharwal@gmail.com",
-    upi:"user@ghj"
-}
+// let userone={
+//     email:"shreyadharwal@gmail.com",
+//     upi:"user@ghj"
+// }
 
-let usertwo= userone
-usertwo.email= "user@google.com"
-console.log(userone.email);//user@google.com
-console.log(usertwo.email);//user@google.com//because both are in heap,as it is a function
+// let usertwo= userone
+// usertwo.email= "user@google.com"
+// console.log(userone.email);//user@google.com
+// console.log(usertwo.email);//user@google.com//because both are in heap,as it is a function
 
 
