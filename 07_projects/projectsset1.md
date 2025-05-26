@@ -209,3 +209,40 @@ window.addEventListener('keydown', (e) => {
 });
 
 ```
+
+## Project 6 Solution
+
+```JavaScript
+
+//generate a random color
+const randColor = function () {
+  const hexVal = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    color += hexVal[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
+
+let intervalID;
+
+const startChangingColor = function () {
+  if (!intervalID) {
+    intervalID = setInterval(changebgColor, 1000);
+  }
+
+  function changebgColor() {
+    document.body.style.backgroundColor = randColor();
+  }
+};
+
+const stopChangingColor = function () {
+  clearInterval(intervalID);
+  intervalID = null; //for professional view as intervalId got overrided everytime
+};
+
+document.querySelector('#start').addEventListener('click', startChangingColor);
+
+document.querySelector('#stop').addEventListener('click', stopChangingColor);
+
+```
