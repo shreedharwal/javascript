@@ -7,7 +7,7 @@ tinderuser.id='abc'
 tinderuser.name='sammi'
 tinderuser.isLoggedIn=false
 
-//console.log(tinderuser)
+// console.log(tinderuser)
 
 
 const regularuser={
@@ -18,8 +18,7 @@ const regularuser={
             lastname:' dharwal'
         }
     }
-}
-
+ }
 //console.log(regularuser.fullname.userfullname.firstname)
 
 const obj1= {1:'a',2:'b'}
@@ -54,6 +53,7 @@ const users=[
 // users[1].email
 // console.log(Object.keys(tinderuser))//[ 'id', 'name', 'isLoggedIn' ]
 // console.log(Object.values(tinderuser))//[ 'abc', 'sammi', false ]
+
 // //keyval is converted to a seprate array
 // console.log(Object.entries(tinderuser))//[ [ 'id', 'abc' ], [ 'name', 'sammi' ], [ 'isLoggedIn', false ] ]
 
@@ -70,7 +70,7 @@ const course={
 //course.courseteacher // this is one method
 
 // const {courseteacher: teacher}= course//can give created name to courseteacher
-// // console.log(courseteacher);
+//console.log(courseteacher);
 // console.log(teacher)
 
 
