@@ -19,10 +19,10 @@ const jsuser= {
     }
 
 // console.log(jsuser.email);
-// console.log(jsuser['email']);
+// console.log(jsuser['email']);//better way
 
 //trying to access using the dot method
-// console.log(jsuser.full name);//will give error , best way to access it by 
+//console.log(jsuser.full name);//will give error , best way to access it by 
 // console.log(jsuser['full name']);
 // console.log(typeof mysym);//Symbol
 // console.log(typeof jsuser[mysym]);//string
@@ -31,18 +31,18 @@ const jsuser= {
 // jsuser.email= 'shreyadharwal@gmail.com'
 // Object.freeze(jsuser)//means nobody can change anything 
 // jsuser.email= 'shreyadharvbwal@gmail.com'
-//console.log(jsuser);//no change because of freez 
+// console.log(jsuser);//no change because of freez 
 
 //declaring functions in jsuser
 // jsuser.greeting= function () {
 //     console.log('Hello to jsuser');
 //     }
-//console.log(jsuser.greeting());
+// console.log(jsuser.greeting());
 
-jsuser.greetingtwo= function () {
-    console.log(`Hello to jsuser,${this.name}`);
-    }
-console.log(jsuser.greetingtwo());
+// jsuser.greetingtwo= function () {
+//     console.log(`Hello to jsuser,${this.name}`);
+//     }
+// console.log(jsuser.greetingtwo());
 
 
 
